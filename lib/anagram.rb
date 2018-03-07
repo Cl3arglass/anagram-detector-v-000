@@ -1,6 +1,6 @@
 # Your code goes here!
 class Anagram
-  attr_accessor :listen :anagrams
+  attr_accessor :listen, :anagrams
 
   def initialize(listen)
     @listen  = listen
