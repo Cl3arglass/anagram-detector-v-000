@@ -8,7 +8,7 @@ class Anagram
 
   def match(anagrams)
     p @anagrams = anagrams
-    @anagrams.select {|anagram| anagram.split("").sort == @listen.join("").split("").sort}
+    @anagrams.select {|anagram| anagram.split("").sort == @listen.split("").sort}
   end
 
 
