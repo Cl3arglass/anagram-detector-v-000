@@ -10,6 +10,6 @@ class Anagram
     @anagrams = anagrams
     @anagrams.select {|anagram| anagram.sort == @listen.sort}
   end
-    
-  
+
+
 end
